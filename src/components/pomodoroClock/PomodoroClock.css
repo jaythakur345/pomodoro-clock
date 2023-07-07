@@ -1,0 +1,64 @@
+.pomodoro-clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .timer {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .controls {
+    margin-bottom: 30px;
+  }
+  
+  .start-btn,
+  .stop-btn,
+  .reset-btn {
+    font-size: 20px;
+    padding: 12px 24px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-btn {
+    background-color: #52c41a;
+    color: white;
+  }
+  
+  .start-btn:hover {
+    background-color: #1890ff;
+  }
+  
+  .stop-btn {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  
+  .stop-btn:hover {
+    background-color: #ff7875;
+  }
+  
+  .reset-btn {
+    background-color: #fadb14;
+    color: #333;
+  }
+  
+  .reset-btn:hover {
+    background-color: #ffec3d;
+  }
+  
+  .cycles {
+    font-size: 16px;
+    color: #666;
+  }
+  
