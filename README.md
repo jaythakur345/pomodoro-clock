@@ -1,18 +1,41 @@
-# Getting Started with Create React App
+# React Pomodoro Clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The React Pomodoro Clock is a productivity tool that helps you manage your work and break intervals using the Pomodoro Technique. It consists of a countdown timer that runs for 25 minutes for work followed by a 5-minute break. You can specify the number of cycles (work + break) as a limit.
 
-## Available Scripts
+![React Pomodoro Clock](![image](https://github.com/jaythakur345/pomodoro-clock/assets/70088852/cf9909fc-9080-49b6-8867-e74b39e77a2f)
+)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Set the number of cycles for the Pomodoro clock.
+- Start, stop, and reset the timer.
+- Visual indication of the remaining time.
+- Display the number of cycles remaining.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- JavaScript
+- HTML
+- CSS
+
+## Getting Started
+
+To run the React Pomodoro Clock locally, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your-username/react-pomodoro-clock.git
+
+2. Navigate to the project directory:
+   cd react-pomodoro-clock
+
+3. Install the dependencies:
+   npm install
+ 
+4. Start the development server:
+  npm start
 
 ### `npm test`
 
