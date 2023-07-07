@@ -29,13 +29,16 @@ To run the React Pomodoro Clock locally, follow these steps:
    git clone https://github.com/your-username/react-pomodoro-clock.git
 
 2. Navigate to the project directory:
+    ```shell
    cd react-pomodoro-clock
 
 3. Install the dependencies:
-   npm install
+    ```shell
+    npm install
  
 4. Start the development server:
-  npm start
+   ```shell
+   npm start
 
 ### `npm test`
 
